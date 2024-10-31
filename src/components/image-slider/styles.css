@@ -1,0 +1,94 @@
+.container {
+    width: 600px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 7px #666;
+}
+
+.arrow {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    filter: drop-shadow(0px 0px 5px #555);
+}
+
+.arrow-left {
+    left: 1rem;
+}
+
+.arrow-right {
+    right: 1rem;
+}
+
+.circle-indicators {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+}
+
+.current-indicator {
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    margin: 0 0.2rem;
+    background-color: #ffffff;
+}
+
+.hide-current-image {
+    display: none;
+}
+
+.inactive-indicator {
+    background-color: gray;
+}
+
+/* les responsif */
+/* Styles for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+    .container {
+        width: 95%;
+        height: 100%;
+        margin: 0.5rem auto;
+    }
+
+    .current-image {
+        border-radius: 0.25rem;
+    }
+
+    .arrow {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .arrow-left {
+        left: 0.75rem;
+    }
+
+    .arrow-right {
+        right: 0.75rem;
+    }
+
+    .circle-indicators {
+        bottom: 0.5rem;
+    }
+
+    .current-indicator {
+        width: 12px;
+        height: 12px;
+        margin: 0 0.15rem;
+    }
+}
