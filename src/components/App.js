@@ -1,6 +1,7 @@
 import "../styles/app.css";
 import Header from "../components/Header";
-import ImageSlider from "./image-slider";
+import LoadMoreData from "./load-more-data";
+// import ImageSlider from "./image-slider";
 // import Accordian from './accordian';
 // import RandomColor from './random-color';
 // import StarRating from './star-rating';
@@ -19,10 +20,11 @@ function App() {
       {/* <StarRating noOfStarts={11} /> */}
 
       {/* image slider component */}
-      <ImageSlider 
-      url={"https://picsum.photos/v2/list"}
-      page={"1"}
-      limit={"10"} />
+      {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={"1"} limit={"10"} /> */}
+     
+      {/* load more products components */}
+      <LoadMoreData />
+
     </div>
   );
 }
