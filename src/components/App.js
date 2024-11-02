@@ -1,6 +1,8 @@
 import "../styles/app.css";
 import Header from "../components/Header";
-import LoadMoreData from "./load-more-data";
+// import LoadMoreData from "./load-more-data";
+import TreeView from "./tree-view";
+import menus from "./tree-view/data";
 // import ImageSlider from "./image-slider";
 // import Accordian from './accordian';
 // import RandomColor from './random-color';
@@ -23,7 +25,10 @@ function App() {
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={"1"} limit={"10"} /> */}
      
       {/* load more products components */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
+
+      {/* tree view component/ menu ui component / recursive navigation menu */}
+      <TreeView menus={menus} />
 
     </div>
   );
