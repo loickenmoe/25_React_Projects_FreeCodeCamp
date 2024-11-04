@@ -1,8 +1,13 @@
 import "../styles/app.css";
 import Header from "../components/Header";
 // import LoadMoreData from "./load-more-data";
-import TreeView from "./tree-view";
-import menus from "./tree-view/data";
+
+
+// import TreeView from "./tree-view";
+// import menus from "./tree-view/data";
+
+
+import QrCodeGenerator from "./qr-code-generator";
 // import ImageSlider from "./image-slider";
 // import Accordian from './accordian';
 // import RandomColor from './random-color';
@@ -28,7 +33,10 @@ function App() {
       {/* <LoadMoreData /> */}
 
       {/* tree view component/ menu ui component / recursive navigation menu */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
+
+      {/* qr code generator */}
+      <QrCodeGenerator />
 
     </div>
   );
