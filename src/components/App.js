@@ -1,12 +1,11 @@
 import "../styles/app.css";
 import Header from "../components/Header";
-import LightDarkMode from "./light-dark-mode";
+// import LightDarkMode from "./light-dark-mode";
+import ScrollIndicator from "./scroll-indicator";
 // import LoadMoreData from "./load-more-data";
-
 
 // import TreeView from "./tree-view";
 // import menus from "./tree-view/data";
-
 
 // import QrCodeGenerator from "./qr-code-generator";
 // import ImageSlider from "./image-slider";
@@ -29,7 +28,7 @@ function App() {
 
       {/* image slider component */}
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={"1"} limit={"10"} /> */}
-     
+
       {/* load more products components */}
       {/* <LoadMoreData /> */}
 
@@ -40,9 +39,10 @@ function App() {
       {/* <QrCodeGenerator /> */}
 
       {/* light and dark mode component */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
 
-
+      {/* scroll indicator */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </div>
   );
 }
