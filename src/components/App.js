@@ -1,6 +1,7 @@
 import "../styles/app.css";
 import Header from "../components/Header";
-import TabTest from "./custom-tabs/tab-test";
+import ModalTest from "./custom-modal-pop/modal-test";
+// import TabTest from "./custom-tabs/tab-test";
 // import LightDarkMode from "./light-dark-mode";
 // import ScrollIndicator from "./scroll-indicator";
 // import LoadMoreData from "./load-more-data";
@@ -46,7 +47,10 @@ function App() {
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
       {/* custom tabs component */}
-      <TabTest />
+      {/* <TabTest /> */}
+
+      {/* custom modal popup component */}
+      <ModalTest />
       
     </div>
   );
