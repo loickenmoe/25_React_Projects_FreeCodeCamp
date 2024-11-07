@@ -1,7 +1,8 @@
 import "../styles/app.css";
 import Header from "../components/Header";
+import TabTest from "./custom-tabs/tab-test";
 // import LightDarkMode from "./light-dark-mode";
-import ScrollIndicator from "./scroll-indicator";
+// import ScrollIndicator from "./scroll-indicator";
 // import LoadMoreData from "./load-more-data";
 
 // import TreeView from "./tree-view";
@@ -42,7 +43,11 @@ function App() {
       {/* <LightDarkMode /> */}
 
       {/* scroll indicator */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      {/* custom tabs component */}
+      <TabTest />
+      
     </div>
   );
 }
