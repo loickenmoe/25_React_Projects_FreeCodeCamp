@@ -1,6 +1,7 @@
 import "../styles/app.css";
 import Header from "../components/Header";
-import ModalTest from "./custom-modal-pop/modal-test";
+import GithubProfileFinder from "./github-profile-finder";
+// import ModalTest from "./custom-modal-pop/modal-test";
 // import TabTest from "./custom-tabs/tab-test";
 // import LightDarkMode from "./light-dark-mode";
 // import ScrollIndicator from "./scroll-indicator";
@@ -50,8 +51,10 @@ function App() {
       {/* <TabTest /> */}
 
       {/* custom modal popup component */}
-      <ModalTest />
-      
+      {/* <ModalTest /> */}
+
+      {/* Github profile finder */}
+      <GithubProfileFinder />
     </div>
   );
 }
