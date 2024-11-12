@@ -1,6 +1,7 @@
 import "../styles/app.css";
 import Header from "../components/Header";
-import GithubProfileFinder from "./github-profile-finder";
+import SearchAutocomplete from "./search-autocomplete-with-api";
+// import GithubProfileFinder from "./github-profile-finder";
 // import ModalTest from "./custom-modal-pop/modal-test";
 // import TabTest from "./custom-tabs/tab-test";
 // import LightDarkMode from "./light-dark-mode";
@@ -54,7 +55,10 @@ function App() {
       {/* <ModalTest /> */}
 
       {/* Github profile finder */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+
+      {/* search auto complete with api */}
+      <SearchAutocomplete />
     </div>
   );
 }
