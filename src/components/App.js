@@ -1,6 +1,7 @@
 import "../styles/app.css";
 import Header from "../components/Header";
-import SearchAutocomplete from "./search-autocomplete-with-api";
+import TicTacToe from "./tic-tac-toe";
+// import SearchAutocomplete from "./search-autocomplete-with-api";
 // import GithubProfileFinder from "./github-profile-finder";
 // import ModalTest from "./custom-modal-pop/modal-test";
 // import TabTest from "./custom-tabs/tab-test";
@@ -58,7 +59,10 @@ function App() {
       {/* <GithubProfileFinder /> */}
 
       {/* search auto complete with api */}
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+
+      {/* Tic tac toe  component */}
+      <TicTacToe />
     </div>
   );
 }
