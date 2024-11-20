@@ -1,6 +1,7 @@
 import "../styles/app.css";
 import Header from "../components/Header";
-import UseOnclickOutsideTest from "./use-outside-click/test";
+import UseWindowResizeTest from "./use-window-resize/test";
+// import UseOnclickOutsideTest from "./use-outside-click/test";
 // import UseFetchHookTest from "./use-fetch/test";
 // import FeatureFlagsGlogalState from "./feature-flag/context";
 // import FeatureFlags from "./feature-flag";
@@ -77,7 +78,10 @@ function App() {
       {/* <UseFetchHookTest /> */}
 
       {/* Use Onclick Outside Hook Test */}
-      <UseOnclickOutsideTest />
+      {/* <UseOnclickOutsideTest /> */}
+
+      {/* Use Window Resize Hook Test */}
+      <UseWindowResizeTest />
     </div>
   );
 }
