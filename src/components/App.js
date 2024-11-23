@@ -1,6 +1,7 @@
 import "../styles/app.css";
 import Header from "../components/Header";
-import ScrollToTopAndBottom from "./scroll-to-top-and-bottom";
+// import ScrollToTopAndBottom from "./scroll-to-top-and-bottom";
+import ScrollToSection from "./scroll-to-top-and-bottom/scroll-to-section";
 // import UseWindowResizeTest from "./use-window-resize/test";
 // import UseOnclickOutsideTest from "./use-outside-click/test";
 // import UseFetchHookTest from "./use-fetch/test";
@@ -85,7 +86,12 @@ function App() {
       {/* <UseWindowResizeTest /> */}
 
       {/* Scroll to top and bottom */}
-        <ScrollToTopAndBottom />
+        {/* <ScrollToTopAndBottom /> */}
+
+        {/* Scroll To a Section */}
+      <ScrollToSection />
+
+
     </div>
   );
 }
