@@ -1,7 +1,8 @@
 import "../styles/app.css";
-import Header from "../components/Header";
+// import Header from "../components/Header";
+import Weather from "./weather-search/weather";
 // import ScrollToTopAndBottom from "./scroll-to-top-and-bottom";
-import ScrollToSection from "./scroll-to-top-and-bottom/scroll-to-section";
+// import ScrollToSection from "./scroll-to-top-and-bottom/scroll-to-section";
 // import UseWindowResizeTest from "./use-window-resize/test";
 // import UseOnclickOutsideTest from "./use-outside-click/test";
 // import UseFetchHookTest from "./use-fetch/test";
@@ -28,7 +29,7 @@ import ScrollToSection from "./scroll-to-top-and-bottom/scroll-to-section";
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       {/* accordian component */}
       {/* <Accordian /> */}
 
@@ -89,7 +90,10 @@ function App() {
         {/* <ScrollToTopAndBottom /> */}
 
         {/* Scroll To a Section */}
-      <ScrollToSection />
+      {/* <ScrollToSection /> */}
+
+      {/* Search weather */}
+      <Weather />
 
 
     </div>
